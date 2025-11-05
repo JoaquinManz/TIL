@@ -9,6 +9,7 @@ function isTriangle(a,b,c)
      return false;
    }
   
+  // check that the sum of the sides is greater than the third side
   if (a + b > c && a + c > b && b + c > a) {
     return true;
   } else {

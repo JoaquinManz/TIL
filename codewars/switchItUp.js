@@ -4,7 +4,7 @@
 // If your language supports it, try using a switch statement.
 //https://www.codewars.com/kata/5808dcb8f0ed42ae34000031
 
-//Used a switch statement.
+//Used a switch statement. Break is not needed here but decided to leave it in.
 function switchItUp(number){
 //Write your own Code!
   switch (number) {

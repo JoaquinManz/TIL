@@ -14,3 +14,7 @@ function reverseWords(str) {
   // Join the array back into a string with a space in between each word
   return reversedWords.join(' ');
 }
+
+// definetely not the best way to do it, can make it more concise
+
+// return str.split("").reverse().join("").split(" ").reverse().join(" "); example by another codewars user

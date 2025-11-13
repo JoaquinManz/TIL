@@ -18,4 +18,4 @@ function century(year) {
   return Math.ceil(year / 100)
 }
 
-// learned about Math.ceil()
+// learned about Math.ceil(), this function rounds a number up, so its perfect for this task.

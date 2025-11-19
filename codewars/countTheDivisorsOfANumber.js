@@ -24,3 +24,21 @@ function getDivisorsCnt(n){
   
   return counter;
 }
+
+// Optimized solution: 
+
+function getDivisorsCnt(n){
+    // todo
+  let counter = 0;
+  let sqrt = Math.sqrt(n)
+  
+  for(let i = 1; i <= sqrt; i++) {
+    if (n % i === 0) {
+      counter += (i * i === n) ? 1 : 2;
+    } 
+  }
+  
+  return counter;
+}
+
+// basically the same as above, but we do the sqrt only once, so it doesn't have to be done every time we check for a divisor
